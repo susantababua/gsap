@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+}
+body{
+    height: 100%;
+    width: 100%;
+    background-color: #111;
+}
+#box1{
+    width: 100vw;
+    height: 100vh;
+    background-color: #222;
+}
+#box2{
+    width: 100vw;
+    height: 100vh;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    overflow-x: hidden;
+}
+#box3{
+    width: 100vw;
+    height: 100vh;
+    background-color: #333;
+}
+
+h1{
+    font-size: 30vw;
+    text-transform: uppercase;
+}
